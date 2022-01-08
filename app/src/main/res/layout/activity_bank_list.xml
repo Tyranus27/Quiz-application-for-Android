@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.BankList">
+
+    <Button
+        android:id="@+id/add_new_bank"
+        android:layout_width="82sp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8sp"
+        android:layout_marginEnd="4sp"
+        android:text="+ADD"
+        app:layout_constraintBottom_toBottomOf="@+id/input_new_bank"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question_bank_list" />
+
+    <TextView
+        android:id="@+id/question_bank_list"
+        android:layout_width="0dp"
+        android:layout_height="60sp"
+        android:background="@color/purple_500"
+        android:gravity="center"
+        android:text="@string/question_bank_list"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_new_bank"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:ems="10"
+        android:hint="input new bank name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/add_new_bank"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question_bank_list" />
+
+    <ListView
+        android:id="@+id/bank_list_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1sp"
+        android:layout_marginTop="1sp"
+        android:layout_marginEnd="1sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_new_bank" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

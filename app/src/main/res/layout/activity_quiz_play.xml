@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:outlineSpotShadowColor="#E4DCDF"
+    tools:context=".ui.QuizPlay">
+
+    <TextView
+        android:id="@+id/question_bank_name"
+        android:layout_width="0dp"
+        android:layout_height="40sp"
+        android:background="@color/purple_500"
+        android:gravity="center"
+        android:text="@string/quiz_game_module_name"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/question_body_for_student"
+        android:layout_width="0dp"
+        android:layout_height="150sp"
+        android:layout_marginStart="64sp"
+        android:layout_marginTop="32sp"
+        android:layout_marginEnd="64sp"
+        android:gravity="center"
+        android:background="#F6F3F3"
+        android:outlineSpotShadowColor="#201E1E"
+        android:shadowRadius="50"
+        android:text="@string/question_for_student"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question_bank_name" />
+
+    <ListView
+        android:id="@+id/answers_list_for_playing"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginEnd="25sp"
+        android:background="#FFFFFF"
+        android:choiceMode="singleChoice"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question_body_for_student" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="55sp"
+        android:background="@color/purple_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp"
+        android:text="@string/next_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answers_list_for_playing" />
+</androidx.constraintlayout.widget.ConstraintLayout>

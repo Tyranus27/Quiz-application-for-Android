@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.ac.aber.dcs.cs31620.assignment_quiz" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Assignment_quiz" >
+        <activity
+            android:name=".ui.QuizPlay"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.SelectBankForStudent"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.QuestionList"
+            android:exported="true"/>
+
+        <activity
+            android:name=".ui.AnswerInserter"
+            android:exported="true"/>
+
+        <activity
+            android:name=".ui.BankList"
+            android:exported="false"/>
+
+
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

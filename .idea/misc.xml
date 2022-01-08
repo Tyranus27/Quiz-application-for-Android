@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/krawi/AndroidStudioProjects/Assignment_quiz/app/src/main/res/layout/activity_answer_inserter.xml" value="0.1" />
+        <entry key="..\:/Users/krawi/AndroidStudioProjects/Assignment_quiz/app/src/main/res/layout/activity_bank_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/krawi/AndroidStudioProjects/Assignment_quiz/app/src/main/res/layout/activity_bank_list1.xml" value="0.33" />
+        <entry key="..\:/Users/krawi/AndroidStudioProjects/Assignment_quiz/app/src/main/res/layout/activity_bank_list2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/krawi/AndroidStudioProjects/Assignment_quiz/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/krawi/AndroidStudioProjects/Assignment_quiz/app/src/main/res/layout/activity_main2.xml" value="0.14010416666666667" />
+        <entry key="..\:/Users/krawi/AndroidStudioProjects/Assignment_quiz/app/src/main/res/layout/activity_play_quiz.xml" value="0.25" />
+        <entry key="..\:/Users/krawi/AndroidStudioProjects/Assignment_quiz/app/src/main/res/layout/activity_question_list.xml" value="0.33" />
+        <entry key="..\:/Users/krawi/AndroidStudioProjects/Assignment_quiz/app/src/main/res/layout/activity_quiz_play.xml" value="0.1" />
+        <entry key="..\:/Users/krawi/AndroidStudioProjects/Assignment_quiz/app/src/main/res/layout/activity_select_bank_for_student.xml" value="0.2125" />
+        <entry key="..\:/Users/krawi/AndroidStudioProjects/Assignment_quiz/app/src/main/res/layout/fragment_item_list.xml" value="0.33" />
+        <entry key="..\:/Users/krawi/AndroidStudioProjects/Assignment_quiz/app/src/main/res/layout/pop_out_menu.xml" value="0.1" />
+        <entry key="..\:/Users/krawi/AndroidStudioProjects/Assignment_quiz/app/src/main/res/layout/question_bank_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/krawi/AndroidStudioProjects/Assignment_quiz/app/src/main/res/menu/popup_menu.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Quiz Game by Marcin Krawiec</string>
+    <string name="quiz_title">Quiz Game</string>
+    <string name="start_button">Start the Quiz</string>
+    <string name="edit_button">Edit the Quiz Bank</string>
+    <string name="question_bank_list">Question Bank List </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quiz_bank_name">Quiz Bank List</string>
+    <string name="save_button"> Save </string>
+    <string name="answer_tab"> Answers </string>
+    <string name="qustion_tab"> Questions </string>
+    <string name="delete">Delete</string>
+    <string name="quiz_game_module_name" />
+    <string name="question_for_student" />
+    <string name="next_button"> Next </string>
+</resources>
